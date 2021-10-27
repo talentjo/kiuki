@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="152px" viewBox="0 0 100 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="33.5230687%" fx="50%" fy="33.5230687%" r="99.827097%" gradientTransform="translate(0.500000,0.335231),scale(1.000000,0.665921),rotate(90.000000),scale(1.000000,0.966883),translate(-0.500000,-0.335231)" id="radialGradient-1">
+            <stop stop-color="#C4FFE1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-110.000000, -117.000000)">
+            <g id="Group" transform="translate(110.055947, 119.000000)">
+                <path d="M99.8881065,59.9328639 C99.8881065,26.8328572 77.5273922,0 49.9440532,0 C22.3607143,0 7.10542736e-15,26.8328572 7.10542736e-15,59.9328639 L7.10542736e-15,150 C57.3750876,150 90.6711231,150 99.8881065,150 L99.8881065,59.9328639 Z" id="Oval" fill="url(#radialGradient-1)"></path>
+                <circle id="Oval" stroke="#4CF09B" stroke-width="4" fill-opacity="0" fill="#FFFFFF" cx="49.9440532" cy="48" r="48"></circle>
+                <path d="M76.9177938,28.5192082 L81.1604345,32.7618489 L42.6231149,71.2991684 L38.3804743,67.0565278 L38.4567979,66.9792082 L20.4307979,48.9534784 L24.6734386,44.7108377 L42.6997979,62.7372082 L76.9177938,28.5192082 Z" id="Combined-Shape" fill="#4CF09B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

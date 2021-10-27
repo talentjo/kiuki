@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
+    <!-- To enable zoom in mobile, comment this -->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700|Patua+One:400"
+      rel="stylesheet"
+    />
+    <link href="<%= BASE_URL %>fontawesome.min.css" rel="stylesheet" />
+    <link href="<%= BASE_URL %>solid.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <title>Mighty Plants</title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but Migthy Plants doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      !(function() {
+        var analytics = (window.analytics = window.analytics || [])
+        if (!analytics.initialize)
+          if (analytics.invoked)
+            window.console &&
+              console.error &&
+              console.error('Segment snippet included twice.')
+          else {
+            analytics.invoked = !0
+            analytics.methods = [
+              'trackSubmit',
+              'trackClick',
+              'trackLink',
+              'trackForm',
+              'pageview',
+              'identify',
+              'reset',
+              'group',
+              'track',
+              'ready',
+              'alias',
+              'debug',
+              'page',
+              'once',
+              'off',
+              'on',
+              'addSourceMiddleware',
+              'addIntegrationMiddleware',
+              'setAnonymousId',
+              'addDestinationMiddleware',
+            ]
+            analytics.factory = function(e) {
+              return function() {
+                var t = Array.prototype.slice.call(arguments)
+                t.unshift(e)
+                analytics.push(t)
+                return analytics
+              }
+            }
+            for (var e = 0; e < analytics.methods.length; e++) {
+              var key = analytics.methods[e]
+              analytics[key] = analytics.factory(key)
+            }
+            analytics.load = function(key, e) {
+              var t = document.createElement('script')
+              t.type = 'text/javascript'
+              t.async = !0
+              t.src =
+                'https://cdn.segment.com/analytics.js/v1/' +
+                key +
+                '/analytics.min.js'
+              var n = document.getElementsByTagName('script')[0]
+              n.parentNode.insertBefore(t, n)
+              analytics._loadOptions = e
+            }
+            analytics._writeKey = '<%= VUE_APP_SEGMENT_KEY %>'
+            analytics.SNIPPET_VERSION = '4.13.2'
+            analytics.load('<%= VUE_APP_SEGMENT_KEY %>')
+          }
+      })()
+    </script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf-WLiSj-zNT_hHY-FSGKkdboyBJRSlOg&libraries=places&language=en"></script>
+    <script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"en-GB","floatingPreferencesButtonDisplay":"bottom-right","siteId":2382304,"cookiePolicyId":48704890, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"acceptButtonColor":"#f8ee6c","acceptButtonCaptionColor":"#6b6730","customizeButtonColor":"#e4e4e4","customizeButtonCaptionColor":"#6e6e6e","rejectButtonColor":"#0073CE","rejectButtonCaptionColor":"white","position":"float-bottom-center","textColor":"#6d6d6d","backgroundColor":"#ffffff" }};
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+  </body>
+</html>

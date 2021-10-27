@@ -1,0 +1,30 @@
+.vue-form-wizard {
+  padding-top: 20px;
+}
+
+.vue-form-wizard .stepTitle {
+  margin-top: 10px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.vue-form-wizard .wizard-icon {
+  font-style: normal;
+  font-size: 15px !important;
+}
+
+.vue-form-wizard .wizard-header {
+  display: none;
+}
+
+.vue-form-wizard .wizard-progress-with-circle {
+  display: none;
+}
+
+.vue-form-wizard .wizard-btn {
+  min-width: 100px;
+}
+
+.vue-form-wizard .wizard-tab-content {
+  padding: 30px 20px;
+}
